@@ -3,7 +3,7 @@ import uuidv1 from 'uuid/v1';
 const existingCustomerId = '932bc00d-50c0-499d-a169-7667cf7c7bf1';
 const existingCustomerPhoneNumber = '5551234567';
 const existingCustomerPassword = 'quadpay';
-const asyncDelayMs = 250;
+const asyncDelayMs = 500;
 
 /**
  * Return a promise to execute a preconfigured delay to simulate network call latency.

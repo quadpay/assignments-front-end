@@ -12,7 +12,7 @@ export default new Vuex.Store({
       merchantName: 'The Store',
       status: 'Started',
     },
-    customer: {},
+    customer: undefined,
     paymentSources: [],
   },
 
@@ -37,7 +37,15 @@ export default new Vuex.Store({
 
     customerExists: (state) => {
       return !!state.customer;
-    }
+    },
+
+    order: (state) => {
+      return state.order;
+    },
+
+    customer: (state) => {
+      return state.customer;
+    },
   },
 
   actions: {
@@ -50,7 +58,7 @@ export default new Vuex.Store({
       var customer = await api.login(phoneNumber, password);
       if (customer) {
         commit('setCustomer', customer);
-        var paymentSources = await api.retrievePaymentSources();
+        var paymentSources = await api.retrievePaymentSources(customer.id);
         commit('setPaymentSources', paymentSources);
       }
     },
