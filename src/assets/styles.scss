@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+// Vuetify button stylings (color overrides needed more specific selectors)
+.theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+  background-color: #1D73EC;
+  color: #ffffff;
+
+  &:hover,
+  &.v-btn--loader {
+    background-color: rgba(#1D73EC, 0.85);
+  }
+}
