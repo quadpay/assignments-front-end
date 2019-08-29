@@ -45,7 +45,7 @@ If you have another idea of what you could build, please feel free to build it! 
 - Institute a way for a user to leave the site and comeback and retain their session
 - Add authentication guards so user's can't access unauthorized pages if they haven't logged in
 - Show off your design and UX skills! (create an installment schedule, page transitions, button/loading animations, merchant name customizations, input masks, etc.)
-- Add a google places autocomplete widget for addresse collection
+- Add a google places autocomplete widget for address collection
 - Build a CI/CD pipeline and show this hosted somewhere (<https://render.com> as free static site hosting)
 - Clean up any technical debt that you find
 - Improve this documentation
