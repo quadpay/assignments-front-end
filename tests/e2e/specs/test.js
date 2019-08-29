@@ -1,8 +1,8 @@
 // https://docs.cypress.io/api/introduction/api.html
 
-describe('My First Test', () => {
-  it('Visits the app root url', () => {
-    cy.visit('/')
-    cy.contains('h1', 'Welcome to Your Vue.js App')
-  })
-})
+describe('End to end test', () => {
+  it('Visits the login page', () => {
+    cy.visit('/');
+    cy.contains('h1', 'Login');
+  });
+});

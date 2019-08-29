@@ -3,6 +3,7 @@
     <v-form @submit="submit($event)">
       <v-layout row wrap>
         <v-flex xs12>
+          <h1 class="login-header">Login</h1>
           <v-text-field
             autofocus
             type="tel"
@@ -93,6 +94,10 @@ export default {
 .create-account-link {
   text-align: center;
   margin-top: 3rem;
+}
+
+.login-header {
+  text-align: center;
 }
 </style>
 
