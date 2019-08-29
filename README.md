@@ -57,21 +57,27 @@ If you have another idea of what you could build, please feel free to build it! 
 As part of completing this assignment, we'd like for you to fill in answers to the questions below.
 
 **Q: If this application was integration with a real API, what changes would you make so that we could build and deploy it to multiple environments and ensure we make API calls to the correct API environment?**
+
 A:
 
 **Q: Can you explain what scoped styles are?**
+
 A:
 
 **Q: What would you do to improve the style management within this app?**
+
 A:
 
 **Q: QuadPay's customer traffic is predominantly over mobile devices.  What are some things you might do to improve performance for our mobile customers?**
+
 A:
 
 **Q: VueX (Vue's state management library) relies heavily on strings for committing mutations/dispatching actions.  How might you improve on the implemenation used in this app?**
+
 A:
 
 **Q: Please describe some steps you'd take to improve the application's error handling.**
+
 A:
 
 ## 4. Space for You
